@@ -4,7 +4,7 @@ import { toast } from 'react-toastify'
 const axiosInstance = axios.create({
   baseURL: 'http://api.openweathermap.org/data/2.5',
   params: {
-    appid: 'c51223c219d6aec8cb8c5210449bd859',
+    appid: process.env.REACT_APP_APPID,
     units: 'metric'
   },
 })

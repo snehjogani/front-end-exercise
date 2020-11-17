@@ -37,9 +37,41 @@
   }
 } */
 
-@import "bootstrap/dist/css/bootstrap.css";
-@import 'react-toastify/dist/ReactToastify.css';
-
 .App {
   margin: 1rem 0;
+}
+
+.App .card {
+  padding: 1rem;
+}
+
+.App .card > .list-group {
+  border-top: 0;
+}
+
+.App .row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.App [class*="col"] {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.card.full-height {
+  height: calc(100vh - 2rem)
+}
+
+.weather-icon-lg {
+  height: 200px;
+}
+
+.weather-icon-md {
+  height: 100px;
+  /* margin-bottom: 0.5rem; */
+}
+
+.weather-icon-sm {
+  height: 40px;
 }
